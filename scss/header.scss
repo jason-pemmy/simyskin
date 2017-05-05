@@ -1,8 +1,9 @@
-@import 'colours';
+@import './utils/colours';
+@import './utils/mixins';
 
 header {
     width: 100%;
-    height: 185px;    
+    height: 140px;    
     background-color: $primary-color;
 
      @media screen and (min-width: 992px){
@@ -10,7 +11,7 @@ header {
      }
 
     .header-content-container {
-        padding-top: 27px;
+        padding-top: 22px;
 
         @media screen and (min-width: 992px){
             padding-top: 16px;
@@ -18,7 +19,7 @@ header {
 
         img {
             display: block;
-            width: 209px;            
+            width: 124px;            
             margin-bottom: 14px;
 
             @media screen and (min-width: 992px){
@@ -31,8 +32,13 @@ header {
             display: block;            
             font-style: italic;
             font-weight: 300;
-            font-size: 2.2rem;
+            font-size: 1.4rem;
             color: #fff;
+
+            @media screen and (min-width: 576px) {
+                float: left;
+                font-size: 1.8rem;
+            }
 
             @media screen and (min-width: 992px) {
                 float: left;
@@ -45,30 +51,15 @@ header {
             }
         }
 
-        .buy-now-button {
+        .buy-now-button-container {
+            @include buy-now-button(166px, 75px);
             position: absolute;
             display: none;
             top: 0;
             right: 0;
-            width: 166px;
-            height: 75px;
-            background-color: $secondary-color;
 
-            @media screen and (min-width: 1024px) {
+            @media screen and (min-width: 992px) {
                 display: block;
-            }
-
-            span {
-                float: none;
-                color: #fff;
-                text-align: center;
-                vertical-align: middle;
-                font-size: 2rem;
-                font-weight: normal;
-                font-style: normal;
-                margin-top: 25px;
-                padding: 0;
-                
             }
         }
     }

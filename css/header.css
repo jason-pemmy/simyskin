@@ -1,18 +1,18 @@
 header {
   width: 100%;
-  height: 185px;
+  height: 140px;
   background-color: #82cec9; }
   @media screen and (min-width: 992px) {
     header {
       height: 75px; } }
   header .header-content-container {
-    padding-top: 27px; }
+    padding-top: 22px; }
     @media screen and (min-width: 992px) {
       header .header-content-container {
         padding-top: 16px; } }
     header .header-content-container img {
       display: block;
-      width: 209px;
+      width: 124px;
       margin-bottom: 14px; }
       @media screen and (min-width: 992px) {
         header .header-content-container img {
@@ -22,8 +22,12 @@ header {
       display: block;
       font-style: italic;
       font-weight: 300;
-      font-size: 2.2rem;
+      font-size: 1.4rem;
       color: #fff; }
+      @media screen and (min-width: 576px) {
+        header .header-content-container span {
+          float: left;
+          font-size: 1.8rem; } }
       @media screen and (min-width: 992px) {
         header .header-content-container span {
           float: left;
@@ -32,18 +36,15 @@ header {
       @media screen and (min-width: 2800px) {
         header .header-content-container span {
           padding: 17px 0 0 50px; } }
-    header .header-content-container .buy-now-button {
+    header .header-content-container .buy-now-button-container {
+      width: 166px;
+      height: 75px;
+      background-color: #f15c22;
       position: absolute;
       display: none;
       top: 0;
-      right: 0;
-      width: 166px;
-      height: 75px;
-      background-color: #f15c22; }
-      @media screen and (min-width: 1024px) {
-        header .header-content-container .buy-now-button {
-          display: block; } }
-      header .header-content-container .buy-now-button span {
+      right: 0; }
+      header .header-content-container .buy-now-button-container span {
         float: none;
         color: #fff;
         text-align: center;
@@ -53,3 +54,6 @@ header {
         font-style: normal;
         margin-top: 25px;
         padding: 0; }
+      @media screen and (min-width: 992px) {
+        header .header-content-container .buy-now-button-container {
+          display: block; } }

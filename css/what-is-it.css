@@ -1,0 +1,33 @@
+.what-it-is-container {
+  position: absolute;
+  bottom: -275px; }
+  @media screen and (min-width: 490px) {
+    .what-it-is-container {
+      bottom: -260px; } }
+  @media screen and (min-width: 576px) {
+    .what-it-is-container {
+      position: relative;
+      bottom: -300px; } }
+  @media screen and (min-width: 992px) {
+    .what-it-is-container {
+      bottom: -20px;
+      left: 70px; } }
+  .what-it-is-container .icon-container {
+    text-align: center; }
+    .what-it-is-container .icon-container .icon {
+      display: inline-block;
+      margin: 10px; }
+      @media screen and (min-width: 992px) {
+        .what-it-is-container .icon-container .icon {
+          margin: 40px; } }
+      @media screen and (min-width: 1200px) {
+        .what-it-is-container .icon-container .icon {
+          margin: 60px; } }
+      .what-it-is-container .icon-container .icon img {
+        width: 60px; }
+      .what-it-is-container .icon-container .icon span {
+        display: block;
+        font-size: 1.3rem; }
+        @media screen and (min-width: 992px) {
+          .what-it-is-container .icon-container .icon span {
+            font-size: 1.6rem; } }
