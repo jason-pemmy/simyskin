@@ -1,0 +1,89 @@
+@import './utils/colours';
+@import './utils/mixins';
+
+.request-sample-container {
+    clear: both;
+    position: relative;
+    top: 500px;    
+    padding-top: 50px; 
+    padding-bottom: 50px; 
+    text-align: left;  
+    background-color: #82cec9;
+
+    @media screen and (min-width: 460px) {
+        top: 350px;
+    }
+
+    @media screen and (min-width: 576px) {
+        top: 100px;
+    }
+
+    @media screen and (min-width: 1024px) {
+        padding-top: 60px;
+        padding-bottom: 60px; 
+        //overflow: auto;
+    }
+
+    .request-content {
+        h2 {
+            color: #fff;
+            font-weight: 500;
+            margin-bottom: 60px;
+
+            @media screen and (min-width: 1024px) { 
+                text-align: center;
+            }
+        }
+
+        .request-sample-button {
+            @include buy-now-button(200px, 40px);
+            text-align: center;
+            padding-top: 12px;
+            margin-bottom: 60px;            
+
+            @media screen and (min-width: 1024px) { 
+                text-align: center;
+                margin: 0 auto;
+            }
+
+            span {
+                font-size: 1.6rem;
+            }
+
+        }
+    }
+
+    .sample-product {
+        position: absolute;
+        right: 20px;
+        bottom: 0;
+        z-index: 100;
+
+        @media screen and (min-width: 460px) {
+            right: 40px;
+            width: 75px;
+        }
+
+        @media screen and (min-width: 1024px) {
+            right: 120px;
+            bottom: 0;
+            width: 200px;
+        }
+
+        @media screen and (min-width: 1200px) {
+            right: 160px;
+        }
+
+        img {
+            width: 60px;
+
+            @media screen and (min-width: 460px) {
+                width: 75px;
+            }
+
+            @media screen and (min-width: 1024px) {
+                width: 180px;
+            }
+        }
+    }
+}
