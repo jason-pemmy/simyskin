@@ -1,0 +1,55 @@
+@import './utils/colours';
+@import './utils/mixins';
+
+.contact-container {
+    clear: both;
+    position: relative;
+    top: 500px;    
+    padding-top: 50px; 
+    padding-bottom: 50px; 
+    text-align: left;  
+    background-color: #e6f5f4;
+
+    @media screen and (min-width: 460px) {
+        top: 350px;
+    }
+
+    @media screen and (min-width: 576px) {
+        top: 100px;
+    }
+
+    @media screen and (min-width: 1024px) {
+        padding-top: 60px;
+        padding-bottom: 60px; 
+        overflow: auto;
+    }
+
+    .contact-content {
+        @media screen and (min-width: 1024px) {
+            text-align: center;            
+            width: 30%;
+            margin: 0 auto;
+        } 
+
+        h2 {
+
+        }
+
+        p {
+
+        }
+
+        .contact-button-container {
+            @include buy-now-button(150px, 40px);
+            padding-top: 20px;
+            text-align: center;    
+
+            @media screen and (min-width: 1024px) {
+                margin: 0 auto;
+            }
+            span {
+                font-size: 1.8rem;
+            }
+        }
+    }
+} 

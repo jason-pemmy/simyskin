@@ -1,0 +1,45 @@
+.contact-container {
+  clear: both;
+  position: relative;
+  top: 500px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: left;
+  background-color: #e6f5f4; }
+  @media screen and (min-width: 460px) {
+    .contact-container {
+      top: 350px; } }
+  @media screen and (min-width: 576px) {
+    .contact-container {
+      top: 100px; } }
+  @media screen and (min-width: 1024px) {
+    .contact-container {
+      padding-top: 60px;
+      padding-bottom: 60px;
+      overflow: auto; } }
+  @media screen and (min-width: 1024px) {
+    .contact-container .contact-content {
+      text-align: center;
+      width: 30%;
+      margin: 0 auto; } }
+  .contact-container .contact-content .contact-button-container {
+    width: 150px;
+    height: 40px;
+    background-color: #f15c22;
+    padding-top: 20px;
+    text-align: center; }
+    .contact-container .contact-content .contact-button-container span {
+      float: none;
+      color: #fff;
+      text-align: center;
+      vertical-align: middle;
+      font-size: 2rem;
+      font-weight: normal;
+      font-style: normal;
+      margin-top: 25px;
+      padding: 0; }
+    @media screen and (min-width: 1024px) {
+      .contact-container .contact-content .contact-button-container {
+        margin: 0 auto; } }
+    .contact-container .contact-content .contact-button-container span {
+      font-size: 1.8rem; }

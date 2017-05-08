@@ -1,0 +1,67 @@
+.shipping-container {
+  clear: both;
+  position: relative;
+  top: 500px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: left;
+  background-color: #e3e3e3; }
+  @media screen and (min-width: 460px) {
+    .shipping-container {
+      top: 350px; } }
+  @media screen and (min-width: 576px) {
+    .shipping-container {
+      top: 100px; } }
+  @media screen and (min-width: 1024px) {
+    .shipping-container {
+      padding-top: 60px;
+      padding-bottom: 0;
+      overflow: auto; } }
+  .shipping-container img {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    width: 70px;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    opacity: .6; }
+    @media screen and (min-width: 460px) {
+      .shipping-container img {
+        width: 110px; } }
+    @media screen and (min-width: 1024px) {
+      .shipping-container img {
+        left: 0;
+        top: 60px;
+        width: 225px;
+        -moz-transform: scaleX(1);
+        -o-transform: scaleX(1);
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+        filter: FlipH;
+        -ms-filter: "FlipH"; } }
+  @media screen and (min-width: 1024px) {
+    .shipping-container .shipping-content-columns {
+      padding-left: 150px; } }
+  .shipping-container .shipping-content-columns h2 {
+    margin: -5px 0 40px 0;
+    font-size: 2.2rem; }
+    @media screen and (min-width: 460px) {
+      .shipping-container .shipping-content-columns h2 {
+        font-size: 2.4rem; } }
+    @media screen and (min-width: 1024px) {
+      .shipping-container .shipping-content-columns h2 {
+        margin: 0; } }
+  .shipping-container .shipping-content-columns .shipping-column {
+    margin-bottom: 40px; }
+    @media screen and (min-width: 1024px) {
+      .shipping-container .shipping-content-columns .shipping-column {
+        float: left;
+        width: 45%; }
+        .shipping-container .shipping-content-columns .shipping-column:first-of-type {
+          margin-right: 60px; } }
+    .shipping-container .shipping-content-columns .shipping-column h3 {
+      font-weight: 300; }

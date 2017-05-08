@@ -1,0 +1,69 @@
+.ingredients-container {
+  clear: both;
+  position: relative;
+  top: 500px;
+  height: auto;
+  padding-bottom: 50px;
+  background-color: #e6f5f4;
+  z-index: 1; }
+  @media screen and (min-width: 460px) {
+    .ingredients-container {
+      top: 350px; } }
+  @media screen and (min-width: 576px) {
+    .ingredients-container {
+      top: 100px; } }
+  @media screen and (min-width: 1024px) {
+    .ingredients-container {
+      float: left; } }
+  .ingredients-container .background-image-container {
+    position: absolute;
+    top: -170px;
+    right: 30px;
+    opacity: .4;
+    z-index: -1;
+    display: none; }
+    @media screen and (min-width: 1024px) {
+      .ingredients-container .background-image-container {
+        display: block; } }
+    .ingredients-container .background-image-container img {
+      width: 1490px; }
+  .ingredients-container .side-bottle-divider {
+    position: absolute;
+    top: -50px;
+    right: 0; }
+    @media screen and (min-width: 1024px) {
+      .ingredients-container .side-bottle-divider {
+        top: -75px; } }
+    .ingredients-container .side-bottle-divider img {
+      width: 280px; }
+      @media screen and (min-width: 1024px) {
+        .ingredients-container .side-bottle-divider img {
+          width: 420px; } }
+  .ingredients-container .ingredients-content-container .ingredients-icon {
+    display: block;
+    width: 60px;
+    padding-top: 70px;
+    margin: 0 auto; }
+  .ingredients-container .ingredients-content-container h2 {
+    text-align: center;
+    color: #f15c22; }
+  @media screen and (min-width: 1024px) {
+    .ingredients-container .ingredients-content-container .col-2x {
+      float: left;
+      width: 44%;
+      margin-left: 30px;
+      margin-bottom: 100px; } }
+  .ingredients-container .ingredients-content-container .col-2x ul {
+    margin: 0;
+    padding-left: 25px; }
+    .ingredients-container .ingredients-content-container .col-2x ul li {
+      margin-top: 30px;
+      color: #f15c22; }
+      @media screen and (min-width: 1024px) {
+        .ingredients-container .ingredients-content-container .col-2x ul li {
+          max-width: 94%; } }
+      .ingredients-container .ingredients-content-container .col-2x ul li h4 {
+        font-weight: 300;
+        font-size: 1.5rem; }
+      .ingredients-container .ingredients-content-container .col-2x ul li span {
+        color: #7e8082; }

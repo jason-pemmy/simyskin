@@ -1,0 +1,141 @@
+@import './utils/colours';
+@import './utils/mixins';
+
+.testimonials-container {
+    clear: both;
+    position: relative;
+    top: 500px;
+    padding-top: 50px;
+    text-align: center;
+
+    @media screen and (min-width: 460px) {
+        top: 350px;
+    }
+
+    @media screen and (min-width: 576px) {
+        top: 100px;
+    }
+
+    @media screen and (min-width: 1024px) {
+        padding-top: 75px;
+    }
+
+    .testimonials-product-img {
+        display: none;
+
+        img {
+            position: absolute;
+            left: calc(50% - 50px);
+            top: 180px;
+            width: 110px;
+        }
+
+        @media screen and (min-width: 1024px) {
+            display: block;
+        }
+    } 
+
+    .testimonials-column {
+
+        @media screen and (min-width: 1024px) {
+            width: 40%;
+            float: left;
+            margin-top: 60px;
+
+            &:last-of-type {
+                float: right;
+            }
+        }
+
+        .quote-container {
+            position: relative;
+            margin-top: 30px;
+            padding: 20px;
+	        background: #fff;
+	        border: 2px solid #e5e6e6;
+
+            blockquote {
+                quotes: "\201C""\201D""\2018""\2019";
+                font-size: 1.7rem;
+                text-align: left;
+                &:before {
+                    font-family: Georgia, serif;
+                    display: block;
+                    padding-left: 10px;
+                    content: "\201C";
+                    font-size: 14rem;
+                    position: absolute;
+                    left: -5px;
+                    top: 60px;
+                    opacity: .5;
+                    color: #e5e6e6;
+                }
+
+                &:after {
+                    font-family: Georgia, serif;
+                    display: block;
+                    padding-left: 10px;
+                    content: "\201D";
+                    font-size: 14rem;
+                    position: absolute;
+                    right: 20px;
+                    bottom: 0;
+                    opacity: .5;
+                    color: #e5e6e6;
+                }
+            }
+
+            &:after, &:before {
+                top: 100%;
+                left: 50px;
+                border: solid transparent;
+                content: " ";
+                height: 0;
+                width: 0;
+                position: absolute;
+                pointer-events: none;            
+            }
+
+            &:after {
+                border-color: rgba(255, 255, 255, 0);	            
+                border-width: 30px 15px 0 15px;
+                border-color: #fff transparent transparent transparent;
+                margin-left: -30px;
+            }
+
+            &:before {
+                border-color: rgba(229, 230, 230, 0);
+	            border-top-color: #e5e6e6;
+	            border-width: 34px 18px 0 18px;
+	            margin-left: -33px;
+            } 
+        }
+
+        .happy-customer-container {
+            text-align: left;
+            margin-top: 50px;
+            margin-left: 5px;
+
+            img {
+                display: inline-block;
+                width: 75px;
+            }
+
+            h3 {
+                position: relative;
+                display: inline-block; 
+                top: -50px;
+                left: 10px;
+            }
+
+            span {
+                position: relative;
+                display: block; 
+                top: -60px;
+                left: 90px;
+                max-width: 60%;
+                color: $text-color;                
+            }
+        }
+    }
+}

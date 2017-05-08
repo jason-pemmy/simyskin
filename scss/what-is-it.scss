@@ -2,37 +2,48 @@
 @import './utils/mixins';
 
 .what-it-is-container { 
-    position: absolute;
-    bottom: -275px;        
+    position: relative;
+    top: 340px;
+    margin: 0;
+    padding: 0;        
 
     @media screen and (min-width: 490px) {
-        bottom: -260px;
+        top: 300px;
     }
 
     @media screen and (min-width: 576px) {
-        position: relative;
-        bottom: -300px;
+        top: 300px;
      }
 
      @media screen and (min-width: 992px) {
-        bottom: -20px;
+        top: 20px;
         left: 70px;
      }
 
     .icon-container {
-        text-align: center; 
-        //width: 100%;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+        
+        @media screen and (min-width: 576px) {
+           position: relative;
+        }
 
         .icon {
             display: inline-block;
-            margin: 10px;
+            margin: 5px;
+
+            @media screen and (min-width: 768px) {
+                margin: 15px;
+            }
 
             @media screen and (min-width: 992px) {
-                margin: 40px;
+                margin: 30px;
             }
 
             @media screen and (min-width: 1200px) {
-                margin: 60px;
+                margin: 40px;
             }
 
             img {
@@ -50,4 +61,33 @@
             
         }
     }
+
+    .what-is-it-text {
+        clear: both;
+        position: relative;
+        bottom: 40px;
+        margin-top: 20px;
+
+        @media screen and (min-width: 460px) {
+            bottom: 130px;
+        }
+
+        @media screen and (min-width: 576px) {
+            margin: 20px 15px 75px 150px;
+            bottom: 325px;
+        }
+
+        @media screen and (min-width: 992px) {
+            margin: 20px 15px 75px 100px;
+            bottom: 0;
+        }
+
+        @media screen and (min-width: 1200px) {
+            margin: 20px 15px 75px 100px;
+        }
+
+        h2 {
+            color: $secondary-color;
+        }        
+    } 
 }

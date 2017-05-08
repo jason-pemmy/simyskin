@@ -39,6 +39,9 @@
       @media screen and (min-width: 992px) {
         .main-hero .hero-content-container .hero-bottle-image-container img {
           width: 80px; } }
+      @media screen and (min-width: 1200px) {
+        .main-hero .hero-content-container .hero-bottle-image-container img {
+          width: 90px; } }
   .main-hero .hero-content-container .hero-text-container {
     margin: 20px 15px 0 90px; }
     @media screen and (min-width: 576px) {
@@ -64,7 +67,7 @@
         .main-hero .hero-content-container .hero-text-container h1 {
           font-size: 3.2rem; } }
     .main-hero .hero-content-container .hero-text-container h3 {
-      font-size: 1.6rem;
+      font-size: 1.8rem;
       font-weight: 400;
       color: #7e8082; }
       @media screen and (min-width: 576px) {

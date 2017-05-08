@@ -1,8 +1,21 @@
+@import './utils/colours';
+@import './utils/mixins';
+
 html {
     font-family: 'Muli', sans-serif;
     font-size: 62.5%;    
     body {        
         font-size: 1.6rem;
+
+        p, li, blockquote {
+            color: $text-color;
+            font-size: 1.8rem;
+            line-height: 28px;
+        }
+
+        h2, h3 {
+            color: $secondary-color;        
+        }
     }
 
     .container {
@@ -21,11 +34,11 @@ html {
         }
 
         @media screen and (min-width: 1200px){
-            margin: 0 175px 0 175px;
+            margin: 0 165px 0 165px;
         }
 
         @media screen and (min-width: 2000px){
-            margin: 0 240px 0 240px;
+            margin: 0 270px 0 270px;
         } 
-    }
+    } 
 }
