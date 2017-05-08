@@ -56,7 +56,7 @@
     .sample-product {
         position: absolute;
         right: 20px;
-        bottom: 0;
+        bottom: -5px;
         z-index: 100;
 
         @media screen and (min-width: 460px) {
@@ -65,8 +65,7 @@
         }
 
         @media screen and (min-width: 1024px) {
-            right: 120px;
-            bottom: 0;
+            right: 120px;            
             width: 200px;
         }
 

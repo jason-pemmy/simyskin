@@ -41,4 +41,20 @@ html {
             margin: 0 270px 0 270px;
         } 
     } 
+
+    .scroll-to-top-button {
+        position: absolute;
+        right: 15px;
+        top: 120px;
+        width: 43px;
+        height: auto;
+        padding: 10px 0 7px 0;
+        background-color: #96d4d2;
+        z-index: 50;
+        text-align: center;
+
+        img {
+            width: 23px;            
+        }
+    }
 }

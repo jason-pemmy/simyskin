@@ -6,9 +6,6 @@
   @media screen and (min-width: 490px) {
     .what-it-is-container {
       top: 300px; } }
-  @media screen and (min-width: 576px) {
-    .what-it-is-container {
-      top: 300px; } }
   @media screen and (min-width: 992px) {
     .what-it-is-container {
       top: 20px;
@@ -23,7 +20,9 @@
         position: relative; } }
     .what-it-is-container .icon-container .icon {
       display: inline-block;
-      margin: 5px; }
+      margin: 5px 20px 5px 20px; }
+      .what-it-is-container .icon-container .icon:first-child {
+        margin: 0 40px 0 0; }
       @media screen and (min-width: 768px) {
         .what-it-is-container .icon-container .icon {
           margin: 15px; } }
@@ -34,7 +33,7 @@
         .what-it-is-container .icon-container .icon {
           margin: 40px; } }
       .what-it-is-container .icon-container .icon img {
-        width: 60px; }
+        width: 55px; }
       .what-it-is-container .icon-container .icon span {
         display: block;
         font-size: 1.3rem; }
@@ -62,3 +61,5 @@
         margin: 20px 15px 75px 100px; } }
     .what-it-is-container .what-is-it-text h2 {
       color: #f15c22; }
+    .what-it-is-container .what-is-it-text p:first-child {
+      padding-bottom: 30px; }

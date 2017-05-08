@@ -43,7 +43,7 @@
         .main-hero .hero-content-container .hero-bottle-image-container img {
           width: 90px; } }
   .main-hero .hero-content-container .hero-text-container {
-    margin: 20px 15px 0 90px; }
+    margin: 30px 15px 0 70px; }
     @media screen and (min-width: 576px) {
       .main-hero .hero-content-container .hero-text-container {
         margin: 30px 15px 0 150px; } }
@@ -57,7 +57,7 @@
         width: 30%;
         margin: 40px 15px 0 0; } }
     .main-hero .hero-content-container .hero-text-container h1 {
-      font-size: 2.5rem;
+      font-size: 2.3rem;
       font-weight: 500;
       color: #f15c22; }
       @media screen and (min-width: 576px) {
@@ -77,8 +77,8 @@
         .main-hero .hero-content-container .hero-text-container h3 {
           font-size: 1.8rem; } }
     .main-hero .hero-content-container .hero-text-container .buy-now-button-container {
-      width: 145px;
-      height: 60px;
+      width: 115px;
+      height: 45px;
       background-color: #f15c22;
       display: block; }
       .main-hero .hero-content-container .hero-text-container .buy-now-button-container span {
@@ -93,7 +93,8 @@
         padding: 0; }
       .main-hero .hero-content-container .hero-text-container .buy-now-button-container span {
         display: block;
-        padding-top: 15px; }
+        padding-top: 13px;
+        font-size: 1.5rem; }
       @media screen and (min-width: 992px) {
         .main-hero .hero-content-container .hero-text-container .buy-now-button-container {
           display: none; } }
