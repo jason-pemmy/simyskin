@@ -4,7 +4,8 @@
 .ingredients-container {
     clear: both;
     position: relative;
-    top: 500px;
+    width: 100%;
+    top: 450px;
     height: auto;
     padding-bottom: 50px;
     background-color: $blue-bg-color;     
@@ -26,7 +27,7 @@
         position: absolute;
         top: -170px;
         right: 30px;
-        opacity: .4;
+        opacity: .4; 
         z-index: -1;
         display: none;
 
@@ -41,7 +42,7 @@
 
     .side-bottle-divider {
         position: absolute;
-        top: -50px;
+        top: -53px;
         right: 0;
 
         @media screen and (min-width: 1024px) {
@@ -49,7 +50,7 @@
         }
 
         img {
-            width: 280px;
+            width: 300px;
 
             @media screen and (min-width: 1024px) {
                 width: 420px;
@@ -63,6 +64,10 @@
             width: 60px;
             padding-top: 70px;
             margin: 0 auto;
+
+            @media screen and (min-width: 1200px) {
+                padding-top: 50px;
+            }
         }
 
         h2 {
@@ -80,7 +85,8 @@
             }
 
             @media screen and (min-width: 1200px) {
-                //width: 47%;
+                margin-left: 10px;
+                width: 48%;
             }
 
             ul {
@@ -92,7 +98,7 @@
                     color: $secondary-color;
                     
                     @media screen and (min-width: 1024px) {
-                        max-width: 94%;
+                        max-width: 90%;
                     }
 
                     h4 {                    

@@ -43,6 +43,8 @@ header {
       width: 166px;
       height: 75px;
       background-color: #f15c22;
+      cursor: pointer;
+      transition: all .3s ease-in-out;
       position: absolute;
       display: none;
       top: 0;
@@ -57,6 +59,10 @@ header {
         font-style: normal;
         margin-top: 25px;
         padding: 0; }
+      header .header-content-container .buy-now-button-container:hover {
+        background-color: #e6f5f4; }
+        header .header-content-container .buy-now-button-container:hover span {
+          color: #f15c22; }
       @media screen and (min-width: 992px) {
         header .header-content-container .buy-now-button-container {
           display: block; } }

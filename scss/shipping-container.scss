@@ -19,9 +19,13 @@
     }
 
     @media screen and (min-width: 1024px) {
-        padding-top: 60px;
-        padding-bottom: 0; 
+        padding-top: 60px;        
         overflow: auto;
+    }
+
+    @media screen and (min-width: 1024px) {
+        padding-bottom: 50px;
+        padding-top: 70px;
     }
 
     img {
@@ -86,7 +90,7 @@
                 }                
             }
             
-            h3 {
+            h4 {
                 font-weight: 300;
             }
         }

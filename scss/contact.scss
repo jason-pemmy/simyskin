@@ -4,8 +4,8 @@
 .contact-container {
     clear: both;
     position: relative;
-    top: 500px;    
-    padding-top: 50px; 
+    top: 450px;    
+    padding-top: 30px; 
     padding-bottom: 50px; 
     text-align: left;  
     background-color: #e6f5f4;
@@ -24,6 +24,11 @@
         //overflow: auto;
     }
 
+    h2 {
+        font-size: 2rem;
+        line-height: 33px;
+    }
+
     .contact-content {
         @media screen and (min-width: 1024px) {
             text-align: center;            
@@ -32,15 +37,16 @@
         }
 
         .contact-button-container {
-            @include buy-now-button(150px, 40px);
-            padding-top: 20px;
+            @include buy-now-button(120px, 35px);
+            padding-top: 13px;
+            margin: 30px 0 10px 0;
             text-align: center;    
 
             @media screen and (min-width: 1024px) {
                 margin: 0 auto;
             }
             span {
-                font-size: 1.8rem;
+                font-size: 1.4rem;
             }
         }
     }

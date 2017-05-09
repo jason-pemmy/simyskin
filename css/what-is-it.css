@@ -31,7 +31,7 @@
           margin: 30px; } }
       @media screen and (min-width: 1200px) {
         .what-it-is-container .icon-container .icon {
-          margin: 40px; } }
+          margin: 10px 40px; } }
       .what-it-is-container .icon-container .icon img {
         width: 55px; }
       .what-it-is-container .icon-container .icon span {
@@ -61,5 +61,5 @@
         margin: 20px 15px 75px 100px; } }
     .what-it-is-container .what-is-it-text h2 {
       color: #f15c22; }
-    .what-it-is-container .what-is-it-text p:first-child {
+    .what-it-is-container .what-is-it-text p:first-of-type {
       padding-bottom: 30px; }

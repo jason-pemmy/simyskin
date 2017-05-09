@@ -32,8 +32,7 @@
 
             &:first-child {
                margin: 0 40px 0 0 ; 
-            }
-            
+            }            
 
             @media screen and (min-width: 768px) {
                 margin: 15px;
@@ -44,7 +43,7 @@
             }
 
             @media screen and (min-width: 1200px) {
-                margin: 40px;
+                margin: 10px 40px;
             }
 
             img {
@@ -88,11 +87,11 @@
         }
 
         h2 {
-            color: $secondary-color;
+            color: $secondary-color;            
         }
 
         p {
-            &:first-child {
+            &:first-of-type {
                 padding-bottom: 30px;
             }            
         }        

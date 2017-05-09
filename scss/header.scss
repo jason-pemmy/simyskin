@@ -7,8 +7,8 @@ header {
     background-color: $primary-color;
 
      @media screen and (min-width: 992px){
-        height: 75px;
-     }
+        height: 75px; 
+     } 
 
     .header-content-container {
         padding-top: 22px;
@@ -24,7 +24,7 @@ header {
 
             @media screen and (min-width: 992px){
                 float: left;               
-                width: 125px;
+                width: 125px; 
             }
         }
 

@@ -9,11 +9,11 @@ html {
 
         p, li, blockquote {
             color: $text-color;
-            font-size: 1.8rem;
-            line-height: 28px;
+            //font-size: 1.6rem;
+            line-height: 24px;
         }
 
-        h2, h3 {
+        h2, h3, h4 {
             color: $secondary-color;        
         }
     }
@@ -34,7 +34,7 @@ html {
         }
 
         @media screen and (min-width: 1200px){
-            margin: 0 165px 0 165px;
+            margin: 0 125px 0 125px;
         }
 
         @media screen and (min-width: 2000px){
@@ -52,6 +52,10 @@ html {
         background-color: #96d4d2;
         z-index: 50;
         text-align: center;
+
+        @media screen and (min-width: 992px){
+            display: none;
+        }
 
         img {
             width: 23px;            

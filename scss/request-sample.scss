@@ -4,9 +4,9 @@
 .request-sample-container {
     clear: both;
     position: relative;
-    top: 500px;    
-    padding-top: 50px; 
-    padding-bottom: 50px; 
+    top: 450px;    
+    padding-top: 30px; 
+    padding-bottom: 10px; 
     text-align: left;  
     background-color: #82cec9;
 
@@ -28,7 +28,7 @@
         h2 {
             color: #fff;
             font-weight: 500;
-            margin-bottom: 60px;
+            margin-bottom: 40px;
 
             @media screen and (min-width: 1024px) { 
                 text-align: center;
@@ -36,7 +36,7 @@
         }
 
         .request-sample-button {
-            @include buy-now-button(200px, 40px);
+            @include buy-now-button(185px, 35px);
             text-align: center;
             padding-top: 12px;
             margin-bottom: 60px;            
@@ -47,7 +47,7 @@
             }
 
             span {
-                font-size: 1.6rem;
+                font-size: 1.4rem;
             }
 
         }
@@ -56,7 +56,7 @@
     .sample-product {
         position: absolute;
         right: 20px;
-        bottom: -5px;
+        bottom: -4px;
         z-index: 100;
 
         @media screen and (min-width: 460px) {

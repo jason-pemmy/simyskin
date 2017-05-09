@@ -13,7 +13,8 @@
       top: 100px; } }
   @media screen and (min-width: 1024px) {
     .where-to-buy-container {
-      padding-top: 75px; } }
+      padding-top: 65px;
+      padding-bottom: 60px; } }
   .where-to-buy-container .carrier-logo-container img {
     display: inline-block;
     width: 100%;

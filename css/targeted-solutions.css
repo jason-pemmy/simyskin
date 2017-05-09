@@ -13,12 +13,9 @@
   @media screen and (min-width: 768px) {
     .targeted-solutions-container {
       margin: 0 75px 0 75px; } }
-  @media screen and (min-width: 992px) {
-    .targeted-solutions-container {
-      margin: 0 125px 0 125px; } }
   @media screen and (min-width: 1200px) {
     .targeted-solutions-container {
-      margin: 0 165px 0 165px; } }
+      margin: 0 100px 0 100px; } }
   @media screen and (min-width: 2000px) {
     .targeted-solutions-container {
       margin: 0 270px 0 270px; } }
@@ -44,7 +41,8 @@
         width: 40%; } }
     @media screen and (min-width: 1200px) {
       .targeted-solutions-container .col-3x {
-        width: 27%; }
+        margin-top: 10px;
+        width: 28%; }
         .targeted-solutions-container .col-3x:nth-of-type(2) {
           border-right-style: solid;
           border-right-width: 1px;
@@ -54,22 +52,28 @@
     .targeted-solutions-container .col-3x img {
       width: 100%; }
     .targeted-solutions-container .col-3x .targeted-solutions-text-container {
-      margin: 60px 15px 20px 15px; }
+      margin: 40px 15px 20px 15px; }
       @media screen and (min-width: 768px) {
         .targeted-solutions-container .col-3x .targeted-solutions-text-container {
           margin: 60px 0px 20px 0px; } }
+      @media screen and (min-width: 1200px) {
+        .targeted-solutions-container .col-3x .targeted-solutions-text-container {
+          margin: 30px 0; } }
       .targeted-solutions-container .col-3x .targeted-solutions-text-container h3 {
         color: #f15c22;
-        padding-bottom: 20px; }
+        padding-bottom: 10px; }
         .targeted-solutions-container .col-3x .targeted-solutions-text-container h3 span {
           color: #1f1f1f; }
       .targeted-solutions-container .col-3x .targeted-solutions-text-container p {
         margin-bottom: 30px; }
       .targeted-solutions-container .col-3x .targeted-solutions-text-container .buy-now-button-container {
-        width: 145px;
-        height: 60px;
+        width: 120px;
+        height: 47px;
         background-color: #f15c22;
-        display: block; }
+        cursor: pointer;
+        transition: all .3s ease-in-out;
+        display: block;
+        margin-bottom: 60px; }
         .targeted-solutions-container .col-3x .targeted-solutions-text-container .buy-now-button-container span {
           float: none;
           color: #fff;
@@ -80,9 +84,17 @@
           font-style: normal;
           margin-top: 25px;
           padding: 0; }
+        .targeted-solutions-container .col-3x .targeted-solutions-text-container .buy-now-button-container:hover {
+          background-color: #e6f5f4; }
+          .targeted-solutions-container .col-3x .targeted-solutions-text-container .buy-now-button-container:hover span {
+            color: #f15c22; }
+        @media screen and (min-width: 1200px) {
+          .targeted-solutions-container .col-3x .targeted-solutions-text-container .buy-now-button-container {
+            margin-bottom: 10px; } }
         .targeted-solutions-container .col-3x .targeted-solutions-text-container .buy-now-button-container span {
           display: block;
-          padding-top: 20px; }
+          padding-top: 14px;
+          font-size: 1.6rem; }
   .targeted-solutions-container .feature-list-container {
     width: 100%; }
     @media screen and (min-width: 1024px) {
@@ -91,9 +103,9 @@
     .targeted-solutions-container .feature-list-container .col-2x {
       float: left;
       text-align: left;
-      margin: 100px 15px 20px 15px; }
+      margin: 0  15px 0 15px; }
       .targeted-solutions-container .feature-list-container .col-2x h2 {
-        padding-bottom: 20px; }
+        padding-bottom: 10px; }
       @media screen and (min-width: 1024px) {
         .targeted-solutions-container .feature-list-container .col-2x {
           width: 45%;
@@ -106,10 +118,12 @@
         font-size: 1.7rem;
         color: #f15c22; }
       .targeted-solutions-container .feature-list-container .col-2x ul {
-        padding-left: 20px; }
+        padding-left: 20px;
+        padding-bottom: 10px; }
         .targeted-solutions-container .feature-list-container .col-2x ul li {
           color: #f15c22;
-          max-width: 100%; }
+          max-width: 100%;
+          padding-bottom: 5px; }
           @media screen and (min-width: 1024px) {
             .targeted-solutions-container .feature-list-container .col-2x ul li {
               max-width: 85%; } }

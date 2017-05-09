@@ -2,17 +2,26 @@
     width: $width;
     height: $height;
     background-color: $secondary-color;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
 
     span {        
         float: none;
         color: #fff;
         text-align: center;
         vertical-align: middle;
-        font-size: 2rem;
+        font-size: 2rem; 
         font-weight: normal;
         font-style: normal;
         margin-top: 25px;
-        padding: 0;
-        
+        padding: 0;        
+    }
+
+    &:hover {
+        background-color: $blue-bg-color;
+
+        span {
+            color: $secondary-color;
+        }
     }
 }

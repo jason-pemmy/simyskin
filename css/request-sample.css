@@ -1,9 +1,9 @@
 .request-sample-container {
   clear: both;
   position: relative;
-  top: 500px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  top: 450px;
+  padding-top: 30px;
+  padding-bottom: 10px;
   text-align: left;
   background-color: #82cec9; }
   @media screen and (min-width: 460px) {
@@ -19,14 +19,16 @@
   .request-sample-container .request-content h2 {
     color: #fff;
     font-weight: 500;
-    margin-bottom: 60px; }
+    margin-bottom: 40px; }
     @media screen and (min-width: 1024px) {
       .request-sample-container .request-content h2 {
         text-align: center; } }
   .request-sample-container .request-content .request-sample-button {
-    width: 200px;
-    height: 40px;
+    width: 185px;
+    height: 35px;
     background-color: #f15c22;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
     text-align: center;
     padding-top: 12px;
     margin-bottom: 60px; }
@@ -40,16 +42,20 @@
       font-style: normal;
       margin-top: 25px;
       padding: 0; }
+    .request-sample-container .request-content .request-sample-button:hover {
+      background-color: #e6f5f4; }
+      .request-sample-container .request-content .request-sample-button:hover span {
+        color: #f15c22; }
     @media screen and (min-width: 1024px) {
       .request-sample-container .request-content .request-sample-button {
         text-align: center;
         margin: 0 auto; } }
     .request-sample-container .request-content .request-sample-button span {
-      font-size: 1.6rem; }
+      font-size: 1.4rem; }
   .request-sample-container .sample-product {
     position: absolute;
     right: 20px;
-    bottom: -5px;
+    bottom: -4px;
     z-index: 100; }
     @media screen and (min-width: 460px) {
       .request-sample-container .sample-product {

@@ -4,7 +4,7 @@
 .testimonials-container {
     clear: both;
     position: relative;
-    top: 500px;
+    top: 450px;
     padding-top: 50px;
     text-align: center;
 
@@ -36,13 +36,19 @@
     } 
 
     .testimonials-column {
+        max-width: 600px;
+
+        &:nth-of-type(2) {
+            display: none; 
+        }
 
         @media screen and (min-width: 1024px) {
             width: 40%;
             float: left;
-            margin-top: 60px;
+            margin-top: 60px;            
 
-            &:last-of-type {
+            &:nth-of-type(2) {
+                display: block;
                 float: right;
             }
         }
@@ -50,23 +56,23 @@
         .quote-container {
             position: relative;
             margin-top: 30px;
-            padding: 20px;
+            padding: 10px;
 	        background: #fff;
 	        border: 2px solid #e5e6e6;
 
             blockquote {
                 quotes: "\201C""\201D""\2018""\2019";
-                font-size: 1.7rem;
+                font-size: 1.6rem;
                 text-align: left;
                 &:before {
                     font-family: Georgia, serif;
                     display: block;
                     padding-left: 10px;
                     content: "\201C";
-                    font-size: 14rem;
+                    font-size: 11rem;
                     position: absolute;
                     left: -5px;
-                    top: 60px;
+                    top: 50px;
                     opacity: .5;
                     color: #e5e6e6;
                 }
@@ -76,9 +82,9 @@
                     display: block;
                     padding-left: 10px;
                     content: "\201D";
-                    font-size: 14rem;
+                    font-size: 11rem;
                     position: absolute;
-                    right: 20px;
+                    right: 10px;
                     bottom: 0;
                     opacity: .5;
                     color: #e5e6e6;
@@ -98,7 +104,7 @@
 
             &:after {
                 border-color: rgba(255, 255, 255, 0);	            
-                border-width: 30px 15px 0 15px;
+                border-width: 25px 15px 0 15px;
                 border-color: #fff transparent transparent transparent;
                 margin-left: -30px;
             }
@@ -106,7 +112,7 @@
             &:before {
                 border-color: rgba(229, 230, 230, 0);
 	            border-top-color: #e5e6e6;
-	            border-width: 34px 18px 0 18px;
+	            border-width: 30px 18px 0 18px;
 	            margin-left: -33px;
             } 
         }
@@ -133,9 +139,33 @@
                 display: block; 
                 top: -60px;
                 left: 90px;
+                font-size: 1.4rem;
                 max-width: 60%;
                 color: $text-color;                
             }
+        }
+    }
+
+    .carousel-marker-container {
+        display: block;
+        margin-top: -20px;
+        text-align: center;
+
+        @media screen and (min-width: 1024px) {
+            display: none;
+        }
+
+        .carousel-marker {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            background-color: #999;
+            border-radius: 50%; 
+            margin: 0 3px 0 3px;
+        }
+
+        .carousel-marker.active {
+            background-color: $secondary-color;
         }
     }
 }

@@ -57,7 +57,7 @@
         width: 30%;
         margin: 40px 15px 0 0; } }
     .main-hero .hero-content-container .hero-text-container h1 {
-      font-size: 2.3rem;
+      font-size: 2.1rem;
       font-weight: 500;
       color: #f15c22; }
       @media screen and (min-width: 576px) {
@@ -66,6 +66,9 @@
       @media screen and (min-width: 768px) {
         .main-hero .hero-content-container .hero-text-container h1 {
           font-size: 3.2rem; } }
+      @media screen and (min-width: 1200px) {
+        .main-hero .hero-content-container .hero-text-container h1 {
+          font-size: 3.8rem; } }
     .main-hero .hero-content-container .hero-text-container h3 {
       font-size: 1.8rem;
       font-weight: 400;
@@ -76,10 +79,15 @@
       @media screen and (min-width: 992px) {
         .main-hero .hero-content-container .hero-text-container h3 {
           font-size: 1.8rem; } }
+      @media screen and (min-width: 1200px) {
+        .main-hero .hero-content-container .hero-text-container h3 {
+          font-size: 2rem; } }
     .main-hero .hero-content-container .hero-text-container .buy-now-button-container {
       width: 115px;
       height: 45px;
       background-color: #f15c22;
+      cursor: pointer;
+      transition: all .3s ease-in-out;
       display: block; }
       .main-hero .hero-content-container .hero-text-container .buy-now-button-container span {
         float: none;
@@ -91,6 +99,10 @@
         font-style: normal;
         margin-top: 25px;
         padding: 0; }
+      .main-hero .hero-content-container .hero-text-container .buy-now-button-container:hover {
+        background-color: #e6f5f4; }
+        .main-hero .hero-content-container .hero-text-container .buy-now-button-container:hover span {
+          color: #f15c22; }
       .main-hero .hero-content-container .hero-text-container .buy-now-button-container span {
         display: block;
         padding-top: 13px;
