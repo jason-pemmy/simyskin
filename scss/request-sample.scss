@@ -4,24 +4,14 @@
 .request-sample-container {
     clear: both;
     position: relative;
-    top: 450px;    
     padding-top: 30px; 
     padding-bottom: 10px; 
     text-align: left;  
     background-color: #82cec9;
 
-    @media screen and (min-width: 460px) {
-        top: 350px;
-    }
-
-    @media screen and (min-width: 576px) {
-        top: 100px;
-    }
-
     @media screen and (min-width: 1024px) {
         padding-top: 60px;
         padding-bottom: 60px; 
-        //overflow: auto;
     }
 
     .request-content {

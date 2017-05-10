@@ -3,7 +3,7 @@
 
 header {
     width: 100%;
-    height: 120px;    
+    height: 108px;    
     background-color: $primary-color;
 
      @media screen and (min-width: 992px){
@@ -11,7 +11,7 @@ header {
      } 
 
     .header-content-container {
-        padding-top: 22px;
+        padding-top: 18px;
 
         @media screen and (min-width: 992px){
             padding-top: 16px;

@@ -4,26 +4,18 @@
 .before-after-container {
     clear: both;
     position: relative;
-    top: 450px; 
     padding-bottom: 75px;
+    padding-top: 90px;
     background-color: #fef9f7;
     height: auto;
     overflow: auto;
 
-    @media screen and (min-width: 460px) {
-        top: 350px;
-    }
-
-    @media screen and (min-width: 576px) {
-        top: 100px;
-    }
-
     @media screen and (min-width: 1024px) {
-        padding-top: 75px;
+        padding-top: 35px;
     }
 
     @media screen and (min-width: 1200px) {        
-        padding: 30px 50px 50px 50px
+        padding: 35px 50px 50px 50px
     }
 
     .text-column {
@@ -45,6 +37,7 @@
 
         p {
             margin-top: 30px;
+
             &:last-child {
                 margin-bottom: 60px;
             }

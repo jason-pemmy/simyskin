@@ -2,19 +2,15 @@
   clear: both;
   position: relative;
   width: 100%;
-  top: 450px;
+  top: 95px;
   height: auto;
+  margin-top: 60px;
   padding-bottom: 50px;
   background-color: #e6f5f4;
   z-index: 1; }
-  @media screen and (min-width: 460px) {
-    .ingredients-container {
-      top: 350px; } }
-  @media screen and (min-width: 576px) {
-    .ingredients-container {
-      top: 100px; } }
   @media screen and (min-width: 1024px) {
     .ingredients-container {
+      top: 10px;
       float: left; } }
   .ingredients-container .background-image-container {
     position: absolute;
@@ -43,7 +39,7 @@
   .ingredients-container .ingredients-content-container .ingredients-icon {
     display: block;
     width: 60px;
-    padding-top: 70px;
+    padding-top: 80px;
     margin: 0 auto; }
     @media screen and (min-width: 1200px) {
       .ingredients-container .ingredients-content-container .ingredients-icon {

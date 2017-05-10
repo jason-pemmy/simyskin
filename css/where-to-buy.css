@@ -1,16 +1,9 @@
 .where-to-buy-container {
   clear: both;
   position: relative;
-  top: 500px;
-  padding-top: 50px;
+  padding-top: 100px;
   padding-bottom: 100px;
   text-align: center; }
-  @media screen and (min-width: 460px) {
-    .where-to-buy-container {
-      top: 350px; } }
-  @media screen and (min-width: 576px) {
-    .where-to-buy-container {
-      top: 100px; } }
   @media screen and (min-width: 1024px) {
     .where-to-buy-container {
       padding-top: 65px;

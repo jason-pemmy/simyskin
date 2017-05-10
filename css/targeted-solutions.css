@@ -1,15 +1,8 @@
 .targeted-solutions-container {
   position: relative;
-  top: 350px;
   padding: 0;
   padding-top: 40px;
   text-align: center; }
-  @media screen and (min-width: 460px) {
-    .targeted-solutions-container {
-      top: 275px; } }
-  @media screen and (min-width: 576px) {
-    .targeted-solutions-container {
-      top: 0; } }
   @media screen and (min-width: 768px) {
     .targeted-solutions-container {
       margin: 0 75px 0 75px; } }

@@ -1,17 +1,10 @@
 .contact-container {
   clear: both;
   position: relative;
-  top: 450px;
   padding-top: 30px;
   padding-bottom: 50px;
   text-align: left;
   background-color: #e6f5f4; }
-  @media screen and (min-width: 460px) {
-    .contact-container {
-      top: 350px; } }
-  @media screen and (min-width: 576px) {
-    .contact-container {
-      top: 100px; } }
   @media screen and (min-width: 1024px) {
     .contact-container {
       padding-top: 60px;

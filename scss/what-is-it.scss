@@ -2,17 +2,16 @@
 @import './utils/mixins';
 
 .what-it-is-container { 
-    position: relative;
-    top: 340px;
-    margin: 0;
-    padding: 0;        
+    position: relative;    
+    margin: 0;      
+    padding-top: 340px;
 
     @media screen and (min-width: 490px) {
-        top: 300px;
+        padding-top: 300px;
     }
 
      @media screen and (min-width: 992px) {
-        top: 20px;
+        padding-top: 20px;
         left: 70px;
      }
 
@@ -65,21 +64,24 @@
     .what-is-it-text {
         clear: both;
         position: relative;
-        bottom: 40px;
+        padding-top: 200px;
         margin-top: 20px;
 
         @media screen and (min-width: 460px) {
-            bottom: 130px;
+            padding-top: 160px;
         }
 
         @media screen and (min-width: 576px) {
             margin: 20px 15px 75px 150px;
-            bottom: 325px;
+            padding-top: 30px;
+        }
+
+        @media screen and (min-width: 700px) {
+            padding-top: 0;
         }
 
         @media screen and (min-width: 992px) {
             margin: 20px 15px 75px 100px;
-            bottom: 0;
         }
 
         @media screen and (min-width: 1200px) {

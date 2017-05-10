@@ -1,12 +1,12 @@
 header {
   width: 100%;
-  height: 120px;
+  height: 108px;
   background-color: #82cec9; }
   @media screen and (min-width: 992px) {
     header {
       height: 75px; } }
   header .header-content-container {
-    padding-top: 22px; }
+    padding-top: 18px; }
     @media screen and (min-width: 992px) {
       header .header-content-container {
         padding-top: 16px; } }

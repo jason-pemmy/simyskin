@@ -2,15 +2,8 @@
 .testimonials-container {
   clear: both;
   position: relative;
-  top: 450px;
   padding-top: 50px;
   text-align: center; }
-  @media screen and (min-width: 460px) {
-    .testimonials-container {
-      top: 350px; } }
-  @media screen and (min-width: 576px) {
-    .testimonials-container {
-      top: 100px; } }
   @media screen and (min-width: 1024px) {
     .testimonials-container {
       padding-top: 75px; } }
@@ -44,17 +37,17 @@
       border: 2px solid #e5e6e6; }
       .testimonials-container .testimonials-column .quote-container blockquote {
         quotes: "“" "”" "‘" "’";
-        font-size: 1.6rem;
+        font-size: 1.5rem;
         text-align: left; }
         .testimonials-container .testimonials-column .quote-container blockquote:before {
           font-family: Georgia, serif;
           display: block;
           padding-left: 10px;
           content: "\201C";
-          font-size: 11rem;
+          font-size: 10rem;
           position: absolute;
           left: -5px;
-          top: 50px;
+          top: 45px;
           opacity: .5;
           color: #e5e6e6; }
         .testimonials-container .testimonials-column .quote-container blockquote:after {
@@ -62,10 +55,10 @@
           display: block;
           padding-left: 10px;
           content: "\201D";
-          font-size: 11rem;
+          font-size: 10rem;
           position: absolute;
-          right: 10px;
-          bottom: 0;
+          right: 15px;
+          bottom: -8px;
           opacity: .5;
           color: #e5e6e6; }
       .testimonials-container .testimonials-column .quote-container:after, .testimonials-container .testimonials-column .quote-container:before {
