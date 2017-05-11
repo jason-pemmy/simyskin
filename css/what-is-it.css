@@ -42,6 +42,7 @@
   .what-it-is-container .what-is-it-text {
     clear: both;
     position: relative;
+    max-width: 1000px;
     padding-top: 200px;
     margin-top: 20px; }
     @media screen and (min-width: 460px) {

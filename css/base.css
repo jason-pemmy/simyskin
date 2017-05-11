@@ -6,7 +6,7 @@ html {
     html body p, html body li, html body blockquote {
       color: #7e8082;
       line-height: 24px; }
-    html body h2, html body h3, html body h4 {
+    html body h1, html body h2, html body h3, html body h4 {
       color: #f15c22; }
   html .container {
     margin: 0 15px 0 15px; }
@@ -17,9 +17,6 @@ html {
       html .container {
         margin: 0 75px 0 75px; } }
     @media screen and (min-width: 992px) {
-      html .container {
-        margin: 0 125px 0 125px; } }
-    @media screen and (min-width: 1200px) {
       html .container {
         margin: 0 125px 0 125px; } }
     @media screen and (min-width: 2000px) {

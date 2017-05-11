@@ -32,6 +32,10 @@
             margin: 30px 0 10px 0;
             text-align: center;    
 
+            &:hover {
+                background-color: #82cec9;
+            }
+
             @media screen and (min-width: 1024px) {
                 margin: 0 auto;
             }

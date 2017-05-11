@@ -9,14 +9,14 @@
       padding-top: 75px; } }
   .testimonials-container .testimonials-product-img {
     display: none; }
+    @media screen and (min-width: 1024px) {
+      .testimonials-container .testimonials-product-img {
+        display: block; } }
     .testimonials-container .testimonials-product-img img {
       position: absolute;
       left: calc(50% - 50px);
       top: 180px;
       width: 110px; }
-    @media screen and (min-width: 1024px) {
-      .testimonials-container .testimonials-product-img {
-        display: block; } }
   .testimonials-container .testimonials-column {
     max-width: 600px; }
     .testimonials-container .testimonials-column:nth-of-type(2) {
